@@ -1,0 +1,19 @@
+[project]
+name = "dm-cli"
+version = "0.1.0"
+description = "Anime/video downloader CLI — Termux Edition"
+requires-python = ">=3.9"
+
+[project.scripts]
+dm-cli = "main:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["main"]
+
+[tool.setuptools.packages.find]
+include = ["core*", "cli*", "handlers*"]
+namespaces = true

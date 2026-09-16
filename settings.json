@@ -1,0 +1,9 @@
+{
+  "download_path": "/storage/emulated/0/Download/Aniyomi/localanime/Welcome to Samdalri",
+  "input_batch_path": "/storage/emulated/0/kdrama",
+  "conn": "12",
+  "parallel": 2,
+  "format": "mkv",
+  "timeout": "30",
+  "rate_limit": ""
+}
